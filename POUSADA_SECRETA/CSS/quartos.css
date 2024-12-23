@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+
+.limitar-secao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-logo{
+    
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.container-logo a{
+    font-size: 24px;
+    color: #3d3d3d;
+    cursor: pointer;
+}
+
+.container-logo a span{
+    color: #6592c9;
+}
+.links-topo{
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.banner img{
+    width: 100%;
+    height: 300px;
+}
+
+/* solteiro quartos css*/
+
+.quartos-solteiro{
+    margin: 30px auto;
+    font-weight: 200;
+    color: #3d3d3d;
+}
+
+.quartos-solteiro h2{
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.quartos-solteiro p{
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.solteiro-quartos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.solteiro-quartos img{
+    width: 280px;
+    height: 200px;
+}
+
+.informacoes-quartos-solteiro p{
+    font-size: 16px;
+    font-weight: bold;
+   
+}
+
+ul{
+
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+
+}
+
+ul li{
+   
+    font-size: 16px;
+    margin: 0 30px;
+    font-weight: 600;
+   
+}
+
+/* Quartos Casal css*/
+
+
+.quartos-casal{
+    margin: 30px auto;
+    font-weight: 200;
+    color: #3d3d3d;
+}
+
+.quartos-casal h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    font-weight: normal;
+}
+.quartos-casal p{
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.casal-quartos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.casal-quartos img{
+    width: 280px;
+    height: 200px;
+}
+
+.informacoes-quartos-casal p{
+    
+    font-size: 16px;
+    font-weight: bold;
+    margin: 30px 0 0 0;
+}
+
+.lista-casal{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.lista-casal li{
+    font-size: 16px;
+    margin: 5px 30px;
+}
+/* Quartos familia css*/
+
+.quartos-familia{
+
+    margin: 30px auto;
+    font-weight: 200;
+    color: #3d3d3d;
+}
+
+.quartos-familia h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    font-weight: normal;
+}
+.quartos-familia p{
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.familia-quartos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.familia-quartos img{
+    width: 280px;
+    height: 200px;
+}
+
+.informacoes-quartos-familia p{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+.lista-familia {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.lista-familia li{
+    font-size: 16px;
+    margin: 5px 30px;
+}
+
+
+/*css do rodape */
+.container-rodape{
+    background-color: #49997d;
+    color:#fff;
+}
+.conteudo-rodape{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    gap: 10px;
+    padding: 60px;
+    max-width: 1024px;
+}
+
+.conteudo-rodape img{
+    width: 30px;
+    margin-right: 2px;
+}
+
+.conteudo-rodape h3{
+    width: 150px;
+}
+
+.container-rodape p{
+    margin-left: 1px;
+    font-size: 13px;
+}
+
+.container-rodape a{
+    color: #fff;
+}
+
+.container-coyprigth{
+    border-top: 1px solid;
+    padding: 20px;
+}
